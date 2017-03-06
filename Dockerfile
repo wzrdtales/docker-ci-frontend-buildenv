@@ -5,5 +5,4 @@ RUN curl -sSL https://get.docker.com/ | sh && apt-get install docker-engine \
   && npm install -g @angular/cli
 
 WORKDIR /home/node
-USER node
 ENV NPM_CONFIG_LOGLEVEL info
